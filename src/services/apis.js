@@ -1,5 +1,4 @@
 const baseUrl = process.env.REACT_APP_BASE_URL;
-console.log("this is the baseUrl = ", baseUrl);
 
 export const userAuthApis = {
   LOGIN_USER: `${baseUrl}/user`,
